@@ -1,6 +1,15 @@
 <?php 
 
 
-$_POST['username'];
+
+$link = mysql_connect("localhost","root","")
+mysql_select_db("restaurant");
+
+
+
+$username=$_POST['username'];
+$password=$_POST['password'];
+
+
 
 ?>
